@@ -398,7 +398,7 @@ nav ul li a:hover::after {
   }
 }
 .skill-bar .bar .nodejs {
-  width: 50%;
+  width: 90%;
   animation: nodejs 3s;
 }
 @keyframes nodejs {
@@ -406,7 +406,7 @@ nav ul li a:hover::after {
     width: 0;
   }
   100% {
-    width: 50%;
+    width: 90%;
   }
 }
 .skill-bar .bar .springboot {
@@ -422,7 +422,7 @@ nav ul li a:hover::after {
   }
 }
 .skill-bar .bar .mongodb {
-  width: 50%;
+  width: 90%;
   animation: mongodb 3s;
 }
 @keyframes mongodb {
@@ -430,19 +430,19 @@ nav ul li a:hover::after {
     width: 0;
   }
   100% {
-    width: 50%;
+    width: 90%;
   }
 }
-.skill-bar .bar .angular {
-  width: 30%;
-  animation: angular 3s;
+.skill-bar .bar .react {
+  width: 70%;
+  animation: react 3s;
 }
-@keyframes angular {
+@keyframes react {
   0% {
     width: 0;
   }
   100% {
-    width: 30%;
+    width: 70%;
   }
 }
 .skill-bar .info i {
